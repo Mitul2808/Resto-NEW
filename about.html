@@ -7,41 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./Resto/designing/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body class="bg-orange-200">
-    <div class="box p-2 m-4 bg-white">
+
+    <!--navbar div -->
+    <div class="box p-6 m-4 bg-white">
         <div class="container mx-auto ">
-            <div class="flex menu justify-between">
+            <div class="flex menu justify-between items-center">
                 <div><i class="fa-solid fa-bars"></i></div>
-                <div class="flex space-x-4">
-                    <span>home</span><span>about</span><span>profile</span>
+                <div class="flex space-x-7">
+                    <span>Home</span><span>About</span><span>Special Dishes</span>
                 </div>
-                <div>3</div>
-                <div>4</div>
-                <div> <i class="fa-solid fa-magnifying-glass   "></i></div>
+                <div class="text-5xl">𝓡𝓮𝓼𝓽𝓸</div>
+                <div class="flex space-x-7">
+                    <span>Menu</span><span>Team</span><span>Reservation</span>
+                </div>
+                <div> <i class="fa-solid fa-magnifying-glass"></i></div>
             </div>
         </div>
     </div>
+    <!-- navbar ends -->
 
+    <!-- primary div -->
     <div class="box p-2 m-4 -mt-4 bg-white">
         <div class="container mx-auto  m-8 flex justify-between ">
-            <div class="basis-1/2"><h1>We Love <br> Delicious Foods!</h1>
-            
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="basis-1/2 flex flex-col">
+                <h1 class="text-6xl mt-40">We Love <br> Delicious Foods!</h1>
+                <!-- button explore & play video -->
+                <div class="h-32 flex items-center mt-16">
+                    <button class="bg-red-400 text-white h-10 w-40 rounded-full items-center hover:bg-red-600">Explore Menu</button>
+                    <i class="fa-solid fa-clapperboard text-2xl pl-10"></i><span class="pl-3 font-bold">Play Video</span>
+                </div>
+                
+                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br>
             </div>
-            <div class="basis-1/2 bg-blue-50 bg_food bg-no-repeat	bg-cover bg-center  flex justify-end items-end">
+            <!-- image & logo -->
+            <div class="basis-1/2 bg-blue-50 bg_food bg-no-repeat bg-cover bg-center  flex justify-end items-end">
                 <span class="box-icon"><i class="fa-solid fa-angle-left fa-2x  text-blue-600"></i></span>
                 <span class="box-icon"><i class="fa-solid fa-angle-right fa-2x"></i></span>
-            
-            </div>
+             </div>
         </div>
-
     </div>
+    <!-- primary div ends -->
 
+    <!-- secondary div -->
     <div class="box p-2 m-4 -mt-4 bg-blue-50">
         <h1>dfkjd</h1>
         <h1>dfkjd</h1>
@@ -49,8 +62,9 @@
         <h1>dfkjd</h1>
         <h1>dfkjd</h1>
     </div>
+    <!-- secondary div ends -->
 
-
+    <!-- third div -->
     <div class="box p-2 m-4 h-96 -mt-4 bg_food bg-no-repeat	bg-cover bg-center">
         <div class="container mx-auto bg-blue-50 m-8">
         <h1>dfkjd</h1>
@@ -60,6 +74,8 @@
         <h1>dfkjd</h1>
         </div>
     </div>
+    <!-- third div ends -->
+
 </body>
 
 </html>

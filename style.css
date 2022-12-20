@@ -1,0 +1,54 @@
+ *
+{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+.background1
+{
+    height: 1000px;
+}
+
+.main-container
+{
+    
+    height: 100%;
+    width:98%;
+}
+
+.nav-container
+{
+    width:70%;
+    height: 10%;
+}
+
+.resto-container
+{
+    height: 80px;
+    width: 200px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.photo-container
+{
+    height: 800px;
+}
+
+.bg_food {
+    
+    background-image: url('https://images.unsplash.com/photo-1623428186429-e76984bf48ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8');
+}
+
+.container {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.box-icon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: block;
+}
